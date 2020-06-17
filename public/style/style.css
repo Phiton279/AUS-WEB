@@ -1,0 +1,449 @@
+@font-face {
+font-family: orbit;
+src: url('orbitron-black.ttf');
+}
+
+@font-face {
+font-family: robot;
+src: url('RobotoMono-Regular.ttf');
+}
+
+@font-face {
+font-family: unseen;
+src: url('the-unseen.ttf');
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: calibri;
+	background-color: white;
+
+}
+
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	min-height: 100px;
+	width:100%; 
+	padding: 10px 100px;
+	box-sizing: border-box;
+	transition: .5s;
+	z-index: 3;
+}
+
+nav.black{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.7);
+	height: auto;
+	box-sizing: border-box;
+	padding: 2px 5px;
+}
+nav .logo{
+	float: left;
+	padding: 0px;
+	z-index: 2;
+
+}
+
+.logo2{
+	z-index: 1;
+	position: fixed;
+	padding: 0px 99px;
+}
+
+
+nav .logo img{
+	height: 200px;
+	padding: 0px 602px;
+	transition: .5s;
+	line-height: 100px;
+	position: fixed;
+	margin-top: 120px;	
+}
+
+nav.black .logo img {
+	margin-top: 0px;
+	height: 90px;
+	padding: 2px 10px;
+	
+}
+nav ul{
+	float: right; 
+	margin: 0;
+	padding: 0;
+	display: flex;
+	padding-top: 10px;
+}
+
+nav ul li{
+	list-style: none;
+	padding: 20px 2px;
+	font-size: 16.55pt;
+}
+
+nav ul li a{
+	list-style: 80px;
+	color: white;
+	padding: 5px 20px;
+	font-family: orbit;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .5s;
+	border-radius: 40px;
+}
+
+nav .black ul li a{
+	color: yellow;
+}
+
+
+
+nav ul li a:hover{
+	color: black;
+	background : #1ABC9C;
+}
+
+section.header{
+	width: 100%;
+	height: 100vh;
+	background: url(../img/background.png);
+	background-repeat: no-repeat;
+	background-size:fixed; 
+	z-index: 2;
+}
+
+
+
+.pembuka {
+	margin:0;
+	padding: 320px;
+	font-family: orbit;
+	font-size: 32pt;
+}
+
+.l1{
+	color: #1ABC9C;
+	text-align: center;
+	list-style-type: none;
+	margin: 0;
+	padding: 40px 120px 70px 180px;
+}
+
+#l2{
+	color: white;
+	text-align: center;
+	list-style-type: none;
+	margin: 0;
+	padding-left: 79px;
+}
+
+.l3{
+	font-size: 17pt;
+	color: black;
+	text-align: center;
+	list-style-type: none;
+	margin: 0;
+	padding-left: 79px;
+	padding-top: 140px;
+}
+
+.l4{
+	font-size: 9pt;
+	color: grey;
+	text-align: center;
+	list-style-type: none;
+	margin: 0;
+	padding-left: 79px;
+	padding-top: 7px;
+}
+
+span.name { 
+	color:#9F9F9F;
+}
+span.name2 { 
+	color:#1ABC9C;
+}
+
+.overbagian1{
+	width: 100%;
+	height: 100vh;
+	z-index: 1;
+}
+
+.overbagian1 p{
+	position: absolute;
+	color :#455262;
+	float: right;
+
+	padding-left: 940px;
+	padding-top: 27px;
+	padding-right: 20px;
+	text-align: justify;
+	font-family: robot;
+	font-size: 17px;
+	line-height: 1.6;
+}
+section.bagian1{
+	width: 100%;
+	height: 100vh;
+	background: url(World_hack.jpg);
+	margin-left: 120px;
+	margin-bottom: 120px;
+	background-size: cover;
+	border-radius: 70px;
+	width: 50%;
+	height: 700px;
+
+}
+
+section.bagian1 h1{
+	margin: 0;
+	padding: 0;
+	font-size: 1.2em;
+}
+
+section.bagian1 p{
+	margin: 0;
+	padding: 0;
+	font-size: 1.2em;
+	color: #1ABC9C;
+}
+
+section.konten{
+	padding :0px 100px 100px 100px;
+	margin-left: 89px;
+	margin-right: 2px;
+	text-align: justify;
+	color: grey;
+}
+
+section.konten h1{
+	margin: 0;
+	padding: 0;
+	font-size: 2.2em;
+	float: right;
+	color: #1ABC9C;
+	font-family: unseen;
+}
+
+section.konten p{
+	margin: 20px 0 0;
+	padding: 0;
+	font-size: 1.2em;
+}
+
+
+#konten2{
+	background:#455262;
+	margin: 0;
+	padding: 0;
+}
+
+.isi2{
+	padding-left: 187px;
+	color: white;
+	padding-right: 100px;
+	text-align: justify;
+	padding-bottom: 50px;
+	padding-top: 30px;	
+	font-family: robot;
+	font-size: 13px;
+	line-height: 2;
+}	
+.isi2 h1{
+	text-align: right;
+	color: red;
+}
+
+.container {
+  position: relative;
+  width: 640px;
+  padding-left: 20px;
+  float: right;
+  z-index: 2;
+}
+
+.image {
+  display: block;
+  height: auto;
+  border-radius: 40px;
+}
+
+.overlay {
+  position: absolute;	
+  bottom: 100%;
+  margin-left: 120px;
+  height: 354px;
+  width: 640px;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  height:0;
+  transition: .5s ease;
+
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 354px;
+  width: 670px;
+  position: absolute;
+  margin-left: 20px;
+}
+
+#overkonten{
+	padding: 2px;
+}
+
+.text {
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  bottom: 120px;
+  left: 27.5px;
+  text-align: center;
+  font-family: orbit;
+}
+
+.text2{
+	position: absolute;
+	bottom: 197px;
+	left: 62.5px;
+ 	text-decoration: none;
+	cursor: pointer;
+	font-size: 13px;
+	font-family: orbit;
+	color: white;
+
+}
+
+.masuk_tim{
+	background-color: grey;
+	padding-left: 200px
+}
+
+.s4{
+	text-align: center;
+	padding-right: 70px;
+	padding-left: 187px;
+	padding-bottom: 50px;
+	padding-top: 30px;	
+	color: grey;
+	font-family: robot;
+	font-size: 13px;
+}
+section.s4 h2{
+	color: #455262;
+	font-size: 17pt;	
+}
+
+.img1{
+	position: absolute;
+	bottom: 80px;
+	left: 320px;
+
+	
+
+}
+.img1 img{
+	border-radius: 30px;
+}
+
+.img2{
+	position: absolute;
+	bottom: 80px;
+	left: 280.5px;
+	
+}
+
+.img2 img{
+	border-radius: 30px;
+}
+
+.Penutup {
+	position: center;
+}
+
+.Penutup h2{
+	float:center;
+	margin: 0px 200px 0;
+	padding-left: 50px;
+	padding-bottom: 17px;
+	text-align: center;
+}
+
+
+.Penutup button{
+	text-align: center;
+	margin: 0px 760px 0;
+
+}
+
+#popupbox1{
+	top: 0; left: 0; position: fixed; width: 100%; height: 120%;
+	background-color: rgba(0,0,0,0.7); display: none;
+}
+
+.popup-wrap{
+	width: 500px;
+	margin: 70px auto;
+	text-align: left;
+}
+
+.popup-conts{
+	background-color: #fff;
+	padding : 20px;
+	border-radius: 20;
+}
+
+.popup-conts h3{
+	padding-left: 50px;
+	padding-top: 9px;
+}
+
+.logos2{
+	padding-left: 49px;
+	display: flex;
+  	border: none;
+}
+.itemz1{
+	padding-bottom: 15px;
+	padding-left: 2px;
+}
+.itemz2{
+	padding-top: 9px;
+	padding-left: 50px;
+}
+
+.itemz3{
+	padding-left: 50px;
+	padding-top: 7px;
+}
+
+
+#wrapper{
+	float:center;
+	margin: 0px 200px 0;
+	padding-left:90px;
+	padding-bottom: 17px;
+	text-align: center;
+}
+
+#wrapper p{
+	
+	font-family: arial;
+	font-size: 20pt;
+}
+#wrapper a{
+	text-decoration: none;
+	color: #479C38;
+}
+
+.item listtim{
+	color: #AAF200 ;
+}
